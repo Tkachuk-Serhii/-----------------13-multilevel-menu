@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.nav__link a{
+    float: left;
+    padding: 5px;
+    color: #fff;
+    background-color: rgb(31, 26, 26); 
+    padding: 20px;
+}
+.nav__link a:hover{
+    background-color: blueviolet;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+.nav__list{
+    background-color: rgb(31, 26, 26);
+    
+    border-bottom: 10px solid blueviolet;
+}
+
